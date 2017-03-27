@@ -1,0 +1,34 @@
+# Ignore everything
+*
+
+# Don't ignore directories, so we can recurse into them
+!*/
+
+# Don't ignore .gitignore
+!.gitignore
+
+# Don't ignore solution files
+!*.sln
+
+# Don't ignore project files
+!*.vcxproj
+
+# Don't ignore nuget packages
+!*.nupkg
+!*.targets
+
+# Don't ignore appveyor.yml
+!appveyor.yml
+
+# readme.md for github
+!README.md
+
+#  Don't ignore code
+!*.cpp
+!*.c
+!*.cc
+!*.cxx
+!*.h
+!*.hpp
+!*.hh
+!*.hxx
